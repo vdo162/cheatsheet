@@ -1,0 +1,21 @@
+.blockRow {	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+
+.blockCol {
+	padding: 5px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.activeLink {
+	
+	padding: 5px;
+	border: solid #19365f 1px;
+}
