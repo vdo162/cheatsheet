@@ -1,0 +1,35 @@
+.block {
+	border: solid black 3px;
+	padding: 10px;
+	background: #0000ff;
+}
+.block_raw {
+	border: solid black 3px;
+	padding: 10px;
+	background: #8b00ff;
+}
+
+.block_col {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	
+	border: solid black 2px;
+	padding: 10px;
+	background: #5e5373;
+}
+
+.block_item {
+	border: solid black 2px;
+	margin: 10px;
+	padding: 10px;
+	background: #0079db;
+}
+
+.block_item_2 {
+	flex: 1 1 auto;
+}
+
+.fontColor {
+	color: white;
+}

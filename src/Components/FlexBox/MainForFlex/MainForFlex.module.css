@@ -1,0 +1,8 @@
+.block_col {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block_item {
+	margin: 10px;
+}

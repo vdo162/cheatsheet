@@ -18,32 +18,32 @@ import {NotFounded} from './Components/NotFounded/NotFounded'
 const App = (props) => {
   return (
     <div className={style.App}>
-			<div>
-				<Header/>
-			</div>
-			<div>
-				<Navbar/>
-			</div>
-			
-			<div className={style.routes}>
-				<Switch>
-					<Route exact path='/' component={()=> <Main/>}/>
-					<Route path='/main' component={()=><Main/>}/> 
-					<Route path='/cs50' component={()=> <CS50/>}/>
-					<Route path='/html' component={()=> <HTML/>}/>
-					<Route path='/js' component={()=> <JS/>}/>
-					<Route path='/flexbox' component={()=> <FlexBox/>}/>
-					<Route path='/bootstrup' component={()=> <Bootstrup/>}/>
-					<Route path='/scss' component={()=> <SCSS/>}/>
-					<Route path='/media' component={()=> <Media/>}/>
-					<Route path='/react' component={()=> <React/>}/>
-					<Route path='*' component={()=> <NotFounded/>}/>
-				</Switch>
-			</div>
-			
-			<div  className={style.styleBottom}>
-				<Footer/>
-			</div>
+		<div>
+			<Header/>
+		</div>
+		<div>
+			<Navbar/>
+		</div>
+		
+		<div className={style.routes}>
+			<Switch>
+				<Route exact path='/' component={()=> <Main/>}/>
+				<Route path='/main' component={()=><Main/>}/> 
+				<Route path='/cs50' component={()=> <CS50/>}/>
+				<Route path='/html' component={()=> <HTML/>}/>
+				<Route path='/js' component={()=> <JS/>}/>
+				<Route path='/flexbox' component={()=> <FlexBox/>}/>
+				<Route path='/bootstrup' component={()=> <Bootstrup/>}/>
+				<Route path='/scss' component={()=> <SCSS/>}/>
+				<Route path='/media' component={()=> <Media/>}/>
+				<Route path='/react' component={()=> <React/>}/>
+				<Route path='*' component={()=> <NotFounded/>}/>
+			</Switch>
+		</div>
+		
+		<div  className={style.styleBottom}>
+			<Footer/>
+		</div>
     </div>
   );
 }

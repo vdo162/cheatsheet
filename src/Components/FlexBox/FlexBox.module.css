@@ -1,40 +1,15 @@
-.block1 {
-	border: solid black 2px;
-	padding: 10px;
-	background: blue;
-}
-
-.block2 {
-	border: solid black 2px;
-	padding: 10px;
-	background: blue;
-	text-align: center;
-}
-
-.block_raw {
-	border: solid black 2px;
-	padding: 10px;
-	background: red;
-}
-
-.block_cal1 {
+.block {
 	display: flex;
-	border: solid black 2px;
-	padding: 10px;
-	background: yellow;
+	justify-content: flex-end;
 }
 
-.block_cal2 {
-	display: inline-flex;
-	border: solid black 2px;
-	padding: 10px;
-	background: yellow;
+.blockItem {
+	background: #226e88;
+	margin: 0px 5px;
+	width: 15px;
+	height: 5px;
 }
 
-.block_item {
-	color: yellow;
-	border: solid black 2px;
-	margin: 10px;
-	padding: 10px;
-	background: green;
+.blockContent a {
+	color: #226ea5;
 }

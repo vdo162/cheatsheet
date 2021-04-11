@@ -1,11 +1,13 @@
 .blockRow {	
+	max-width: 1400px;
+	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	
 }
 
 .blockCol {
+	
 	padding: 5px;
 }
 

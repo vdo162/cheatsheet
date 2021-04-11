@@ -1,0 +1,21 @@
+.colorOfBlock {
+	background: #0000ff;
+	color: white;
+}
+
+.colorOfBlockRow {
+	background: #8b00ff;
+	color: white;
+	margin: 0px 10px;
+}
+
+.colorOfBlockCol {
+	background: #5e5373;
+	color: white;
+}
+
+.colorOfBlockItem {
+	background: #0079db;
+	color: white;
+	margin: 0px 10px;	
+}
