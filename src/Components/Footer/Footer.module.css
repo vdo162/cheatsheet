@@ -1,4 +1,4 @@
-.Bottom {
+.bottom {
 	text-align: center;	
 }
 
@@ -8,4 +8,11 @@
 
 .logo img{
 	width: 200px;
+}
+
+hr {
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #19365f; /* Цвет линии для остальных браузеров */
+    background-color: #19365f; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
 }

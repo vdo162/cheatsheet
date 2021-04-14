@@ -3,7 +3,7 @@
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .blockCol {
@@ -20,4 +20,11 @@ a {
 	
 	padding: 5px;
 	border: solid #19365f 1px;
+}
+
+.hr {
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #19365f; /* Цвет линии для остальных браузеров */
+    background-color: #19365f; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
 }

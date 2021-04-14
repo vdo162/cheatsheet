@@ -4,8 +4,8 @@ import logo from '../../image/logo.PNG'
 
 export const Footer = (props) => {
 	return (
-		<div  className={style.Bottom}>
-			<hr color='#19365f'/>
+		<div  className={style.bottom}>
+			<hr  className={style.hr}/>
 			<div>
 				© 2021 Все права пренадлежат правообладателям
 			</div>

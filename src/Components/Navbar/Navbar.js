@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 export const Navbar = (props) => {
 	return (
 	<div>
-		<hr color='#19365f'/>
+		<hr className={style.hr}/>
 		<div className={style.blockRow}>
 			<div className={style.blockCol}>
 				<NavLink to='/main' activeClassName={style.activeLink}>Главная</NavLink>
@@ -35,7 +35,7 @@ export const Navbar = (props) => {
 				<NavLink to='/react' activeClassName={style.activeLink}>Шаг 8: React</NavLink>
 			</div>	
 		</div>
-		<hr color='#19365f'/>
+		<hr className={style.hr}/>
 	</div>
 	)
 }
