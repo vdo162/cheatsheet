@@ -2,7 +2,8 @@ import s from'./MainForFlex.module.css';
 
 
 export const MainForFlex = (props) => {
-	return <div>
+	return <div className={s.conteiner}>
+		<div className={s.content}>
 		<div>
 			<h1>FlexBox</h1>
 		</div>
@@ -30,5 +31,6 @@ export const MainForFlex = (props) => {
 				<iframe width="160" height="90" src="https://www.youtube.com/embed/8Gu40PFzOHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
 			</div>
 		</div>
+	</div>
 	</div>
 }

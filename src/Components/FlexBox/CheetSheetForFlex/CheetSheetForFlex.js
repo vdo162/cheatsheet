@@ -31,7 +31,7 @@ import {DirectionColumnReverse} from './DirectionColumnReverse/DirectionColumnRe
 import {FullScreenItem} from './FullScreenItem/FullScreenItem'
 
 export const CheetSheetForFlex = (props) => {
-	return <div>
+	return <div className={s.main}>
 			<p>
 				<span className={s.colorOfBlock}>.block</span>
 				<span className={s.colorOfBlockRow}>.block_raw</span>

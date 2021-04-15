@@ -10,7 +10,7 @@ import {JS} from './Components/JS/JS'
 import {FlexBox} from './Components/FlexBox/FlexBox'
 import {Bootstrup} from './Components/Bootstrup/Bootstrup'
 import {SCSS} from './Components/SCSS/SCSS'
-import {Media} from './Components/Media/Media'
+import {Adaptive} from './Components/Adaptive/Adaptive'
 import {React} from './Components/React/React'
 import {Footer} from './Components/Footer/Footer'
 import {NotFounded} from './Components/NotFounded/NotFounded'
@@ -35,7 +35,7 @@ const App = (props) => {
 				<Route path='/flexbox' component={()=> <FlexBox/>}/>
 				<Route path='/bootstrup' component={()=> <Bootstrup/>}/>
 				<Route path='/scss' component={()=> <SCSS/>}/>
-				<Route path='/media' component={()=> <Media/>}/>
+				<Route path='/adaptive' component={()=> <Adaptive/>}/>
 				<Route path='/react' component={()=> <React/>}/>
 				<Route path='*' component={()=> <NotFounded/>}/>
 			</Switch>

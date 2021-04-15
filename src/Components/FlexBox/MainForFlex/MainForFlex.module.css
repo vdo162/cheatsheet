@@ -1,3 +1,12 @@
+.conteiner {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.content {
+	padding: 15px;
+}
+
 .block_col {
 	display: flex;
 	flex-wrap: wrap;

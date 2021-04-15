@@ -29,7 +29,7 @@ export const Navbar = (props) => {
 				<NavLink to='/scss' activeClassName={style.activeLink}>Шаг 6: SCSS</NavLink>
 			</div>
 			<div className={style.blockCol}>
-				<NavLink to='/media' activeClassName={style.activeLink}>Шаг 7: Media</NavLink>
+				<NavLink to='/adaptive' activeClassName={style.activeLink}>Шаг 7: Adaptive</NavLink>
 			</div>
 			<div className={style.blockCol}>
 				<NavLink to='/react' activeClassName={style.activeLink}>Шаг 8: React</NavLink>

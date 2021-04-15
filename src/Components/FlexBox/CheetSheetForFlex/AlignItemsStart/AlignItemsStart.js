@@ -11,7 +11,7 @@ export const AlignItemsStart = (props) => {
 					<div className={s.block_item}>22222222222222 2 2 2 <br/>2<br/>2</div>
 					<div className={s.block_item + ' ' + s.fontSize}>3333 font-size: 40px;</div>
 					<div className={s.block_item}>44444 4 4 4 4 4</div>
-					<div className={s.block_item}>55555 5 5 5</div>
+					<div className={s.block_item + ' ' + s.fontSize}>55555 5 5 5</div>
 					<div className={s.block_item}>66666666666666</div>
 				</div>
 			</div>
