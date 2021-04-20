@@ -12,7 +12,7 @@ export const Adaptive = (props) => {
 					<div className={s.blockContent}><Link to='/adaptive'><img className={s.button} /></Link></div>
 				</div>
 				<div className={s.blockItem}>
-					<div className={s.blockContent}><Link to='/adaptive/example'>...</Link></div>
+					<div className={s.blockContent}><Link to='/adaptive/example'><img className={s.button} /></Link></div>
 				</div>
 			</div>
 			
