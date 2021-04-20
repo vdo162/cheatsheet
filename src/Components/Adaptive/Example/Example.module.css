@@ -42,13 +42,13 @@
 
 .threeRow {
 	display: flex;
-	margin: 0px -10px;
+	margin: 0px -5px;
 }
 
 .threeCol {
 	border: solid black 2px;
 	width: 33.33%;
-	margin: 0px 10px;
+	margin: 0px 5px;
 	background: #008B8B;
 	padding: 10px;
 	padding-bottom: 1px;
@@ -57,6 +57,27 @@
 }
 
 .threeImg {
+	background: #F0E68C;
+	padding-top: 60%;
+}
+
+.twoRow {
+	display: flex;
+	margin: 10px -5px 0px -5px;
+}
+
+.twoCol {
+	border: solid black 2px;
+	width: 50%;
+	margin: 0px 5px;
+	background: #008B8B;
+	padding: 10px;
+	padding-bottom: 1px;
+	font-size: 70%;
+	color: white; 
+}
+
+.twoImg {
 	background: #F0E68C;
 	padding-top: 60%;
 }
