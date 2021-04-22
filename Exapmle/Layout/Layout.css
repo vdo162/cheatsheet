@@ -18,10 +18,12 @@ body {
 
 .headerRow {
 	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 40px 0px;
 }
 
 .headerCol {
-	margin: 40px 20px;
+	margin: 10px 20px;
 }
 
 .sky img {
@@ -56,9 +58,12 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 40px 0px;
 }
 
 .footerCol {
+	margin: 10px 10px;
 }
 
 .footerLogoRow{
