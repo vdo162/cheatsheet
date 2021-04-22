@@ -10,7 +10,13 @@ export const Example = (props) => {
 			<a href='/cheatsheet/Exapmle/Responsive/Responsive.html' target="_blank">Responsive Web Design (RWD) - отзывчивая (резиновая) верстка</a>
 		</div>
 		<div>
-			<a href='/cheatsheet/Exapmle/Responsive/Responsive.html' target="_blank">Adaptive Web Design (AWD) - адаптивная верстка</a>
+			<a href='/cheatsheet/Exapmle/Adaptive/Adaptive.html' target="_blank">Adaptive Web Design (AWD) - адаптивная верстка</a>
+		</div>
+		<div>
+			<a href='/cheatsheet/Exapmle/ResponsiveAdaptive/ResponsiveAdaptive.html' target="_blank">Responsive-Adaptive Web Design (RAWD) - отзывчиво-адаптивная верстка</a>
+		</div>
+		<div>
+			<a href='http://localhost:3001/' target="_blank">Пример сайта</a>
 		</div>
 	</div>
 }

@@ -1,12 +1,8 @@
 .conteiner {
 	max-width: 1200px;
 	margin: 0px auto;
-}
-
-.content {
 	padding: 0px 15px;
 }
-
 
 .block {
 	display: flex;
