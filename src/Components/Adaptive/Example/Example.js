@@ -16,7 +16,7 @@ export const Example = (props) => {
 			<a href='/cheatsheet/Exapmle/ResponsiveAdaptive/ResponsiveAdaptive.html' target="_blank">Responsive-Adaptive Web Design (RAWD) - отзывчиво-адаптивная верстка</a>
 		</div>
 		<div>
-			<a href='http://localhost:3001/' target="_blank">Пример сайта</a>
+			<a href='/cheatsheet/Exapmle/Layout/Layout.html' target="_blank">Пример сайта</a>
 		</div>
 	</div>
 }
