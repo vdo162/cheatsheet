@@ -1,0 +1,71 @@
+body {
+	margin: 0px;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0px auto;	
+}
+
+.header {
+	position: absolute;	
+	width: 100%;
+}
+
+.headerBlock {
+	text-align: center;
+}
+
+.headerRow {
+	display: inline-flex;
+}
+
+.headerCol {
+	margin: 40px 20px;
+}
+
+.sky img {
+	width: 100%;
+}
+
+.text {
+	background: #fffafa;
+	text-align: center;
+}
+
+.textTitle {
+	font-weight: bold; 
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	line-height: 3;
+}
+
+.textText {
+	line-height: 1.5;
+}
+
+.footer {
+	background: #fffafa;
+	padding: 80px 0px;
+}
+
+.footerBlock {
+}
+
+.footerRow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footerCol {
+}
+
+.footerLogoRow{
+	display: flex;
+}
+
+.footerLogoCol img{
+	width: 20px;
+	padding: 0px 5px;
+}
