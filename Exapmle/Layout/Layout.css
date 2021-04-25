@@ -2,6 +2,10 @@ body {
 	margin: 0px;
 }
 
+img {
+	display: block;
+}
+
 .container {
 	max-width: 800px;
 	margin: 0px auto;	
@@ -17,22 +21,34 @@ body {
 }
 
 .headerRow {
+	max-width: 320px;
 	display: inline-flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin: 40px 0px;
 }
+
+@media (min-width: 500px) {
+	.headerRow {
+		max-width: none;
+	}
+}
+
 
 .headerCol {
 	margin: 10px 20px;
 }
 
-.sky img {
-	width: 100%;
+.sky {
+	background: url(./images/sky.jpg);
+	background-size: 100%;
+	padding-top: 30%;	
 }
 
 .text {
-	background: #fffafa;
+	background: #eef0f5;
 	text-align: center;
+	padding: 100px 5%;
 }
 
 .textTitle {
@@ -46,8 +62,473 @@ body {
 	line-height: 1.5;
 }
 
+.meadow {
+	
+}
+
+	.meadowRow {
+		
+	}
+	@media (min-width: 980px) {
+		.meadowRow {
+			display: flex;
+		}
+	}
+		
+		.meadowColImageBigContainer {
+		}	
+		@media (min-width: 980px) {
+			.meadowColImageBigContainer {	
+				flex: 0 0 66.666%;
+			}
+		}
+			.meadowColImageBig {
+				background: url(./images/meadow1.jpg);
+				background-size: 100%;
+				background-position: center;
+				padding-top: 57%;	
+			}
+		
+			.meadowColImageBig  img{
+			}
+
+		.meadowColTextImage {
+			
+		}
+		@media (min-width: 980px) {
+			.meadowColTextImage {
+				flex: 0 0 33.333%;
+			}
+		}
+			.meadowTextImageRow {
+				
+			}
+			@media (min-width: 980px) {
+				.meadowTextImageRow {
+					display: flex;
+					flex-direction: column;
+					height: 100%;
+				}
+			}
+
+				.meadowTextImageColText {
+					padding: 5% 0;
+				}
+				@media (min-width: 980px) {
+					.meadowTextImageColText {
+						padding: 0;
+						flex: 0 0 66.666%;
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+					}
+				}
+						.meadowTitle {
+							font-weight: bold; 
+							text-transform: uppercase;
+							letter-spacing: 0.3em;
+							text-align: center;
+							line-height: 3;
+						}
+
+						.meadowParagraph {
+							padding: 0px 30px 0px 30px;
+							line-height: 1.5;
+						}
+
+				.meadowTextImageColImage {	
+					background: url(./images/meadow2.jpg);
+					background-size: 100%;
+					background-position: center bottom;
+					padding-top: 41%;
+				}
+				@media (min-width: 980px) {
+					.meadowTextImageColImage {
+						flex: 0 0 33.333%;
+						padding-top: 0;
+					}
+				}
+				
+				.meadowTextImageColImage img {
+					width: 100%;
+				}
+
+.river {
+	
+}
+
+	.riverRow {
+		
+	}
+	@media (min-width: 980px) {
+		.riverRow {
+			display: flex;
+		}
+	}
+
+		.riverColTextImage {
+			
+		}
+		@media (min-width: 980px) {
+			.riverColTextImage {
+				flex: 0 0 33.333%;
+			}
+		}
+			.riverTextImageRow {
+				
+			}
+			@media (min-width: 980px) {
+				.riverTextImageRow {
+					display: flex;
+					flex-direction: column;
+					height: 100%;
+				}
+			}
+
+				.riverTextImageColText {
+					padding: 5% 0;
+				}
+				@media (min-width: 980px) {
+					.riverTextImageColText {
+						padding: 0;
+						flex: 0 0 66.666%;
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+					}
+				}
+						.riverTitle {
+							font-weight: bold; 
+							text-transform: uppercase;
+							letter-spacing: 0.3em;
+							text-align: center;
+							line-height: 3;
+						}
+
+						.riverParagraph {
+							padding: 0px 30px 0px 30px;
+							line-height: 1.5;
+						}
+
+				.riverTextImageColImage {	
+					background: url(./images/river1.jpg);
+					background-size: 100%;
+					background-position: center;
+					padding-top: 41%;
+				}
+				@media (min-width: 980px) {
+					.riverTextImageColImage {
+						flex: 0 0 33.333%;
+						padding-top: 0;
+					}
+				}
+				
+				.riverTextImageColImage img {
+					width: 100%;
+				}
+
+		.riverColImageBigContainer {
+		}	
+		@media (min-width: 980px) {
+			.riverColImageBigContainer {	
+				flex: 0 0 66.666%;
+			}
+		}
+			.riverColImageBig {
+				background: url(./images/river2.jpg);
+				background-size: 100%;
+				background-position: center;
+				padding-top: 57%;	
+			}
+		
+			.riverColImageBig  img{
+			}
+
+
+
+.sea {
+	
+}
+
+	.seaRow {
+		
+	}
+	@media (min-width: 980px) {
+		.seaRow {
+			display: flex;
+		}
+	}
+		.seaColImageBig1Container {
+		}	
+		@media (min-width: 980px) {
+			.seaColImageBig1Container {	
+				flex: 0 0 33.333%;
+			}
+		}
+			.seaColImageBig1 {
+				background: url(./images/sea1.jpg);
+				background-size: auto 100%;
+				background-position: center;
+				padding-top: 114%;	
+			}
+		
+			.seaColImageBig1  img{
+			}
+
+		.seaColTextImage {
+			
+		}
+		@media (min-width: 980px) {
+			.seaColTextImage {
+				flex: 0 0 33.333%;
+			}
+		}
+			.seaTextImageRow {
+				
+			}
+			@media (min-width: 980px) {
+				.seaTextImageRow {
+					display: flex;
+					flex-direction: column;
+					height: 100%;
+				}
+			}
+
+				.seaTextImageColText {
+					padding: 5% 0;
+				}
+				@media (min-width: 980px) {
+					.seaTextImageColText {
+						padding: 0;
+						flex: 0 0 66.666%;
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+					}
+				}
+						.seaTitle {
+							font-weight: bold; 
+							text-transform: uppercase;
+							letter-spacing: 0.3em;
+							text-align: center;
+							line-height: 3;
+						}
+
+						.seaParagraph {
+							padding: 0px 30px 0px 30px;
+							line-height: 1.5;
+						}
+
+				.seaTextImageColImage {	
+					background: url(./images/sea2.jpg);
+					background-size: 100%;
+					background-position: center bottom;
+					padding-top: 41%;
+				}
+				@media (min-width: 980px) {
+					.seaTextImageColImage {
+						flex: 0 0 33.333%;
+						padding-top: 0;
+					}
+				}
+				
+				.seaTextImageColImage img {
+					width: 100%;
+				}
+		
+		.seaColImageBig3Container {
+		}	
+		@media (min-width: 980px) {
+			.seaColImageBig3Container {	
+				flex: 0 0 33.333%;
+			}
+		}
+			.seaColImageBig3 {
+				background: url(./images/sea3.jpg);
+				background-size: auto 100%;
+				background-position: center;
+				padding-top: 114%;	
+			}
+		
+			.seaColImageBig3  img{
+			}
+
+
+
+
+
+
+.mount {
+	
+}
+
+.mountRow {
+}
+@media (min-width: 980px) {
+	.mountRow {
+		display: flex;
+	}
+}
+
+	.mountCol1 {
+	}
+	@media (min-width: 980px) {
+		.mountCol1 {
+			flex: 0 0 33.333%;
+		}
+	}
+		.mountCol1Row {
+			display: flex;
+			flex-wrap: wrap;
+		}
+			.mountCol1Col1 {
+				flex: 0 0 50%;
+			}
+				.mount1 {
+					background: url(images/mount1.jpg);
+					background-size: auto 100%;
+					background-position: 27% center;
+					padding-top: 100%;
+				}
+				
+			.mountCol1Col2 {
+				flex: 0 0 50%;
+			}	
+				.mount2 {
+					background: url(images/mount2.jpg);
+					background-size: auto 100%;
+					background-position: 27% center;
+					padding-top: 100%;
+				}
+				
+			.mountCol1Col3 {
+				flex: 0 0 100%;
+			}	
+				.mount3 {
+					background: url(images/mount3.jpg);
+					background-size: 100% auto;
+					background-position: 40% center;
+					padding-top: 50%;
+				}
+
+	.mountCol2 {
+	}
+	@media (min-width: 980px) {
+		.mountCol2 {
+			flex: 0 0 33.333%;
+		}
+	}
+		.mountCol2Row {
+		display: flex;
+		}
+			.mountCol2Col1Mount4 {
+				flex: 0 0 50%;
+			}
+				.mount4 {
+					background: url(images/mount4.jpg);
+					background-size: auto 100%;
+					background-position: 27% center;
+					padding-top: 200%;
+				}
+			.mountCol2Col2Mount5 {
+				flex: 0 0 50%;
+			}
+				.mount5 {
+					background: url(images/mount5.jpg);
+					background-size: auto 100%;
+					background-position: 40% center;
+					padding-top: 200%;
+				}
+
+	.mountCol3 {
+	}
+	@media (min-width: 980px) {
+		.mountCol3 {
+			flex: 0 0 33.333%;
+		}
+	}
+		.mountCol3Row {
+		}
+		@media (min-width: 980px) {
+			.mountCol3Row {
+				height: 100%;
+			}
+		}
+			.mountCol3Col1 {
+				height: 50%;
+			}
+				.mountText {
+					background: #50c878;
+					padding: 10%;
+					text-align: center;
+					text-transform: uppercase;
+					font-weight: bold; 
+					letter-spacing: 0.3em;
+					color: white;
+				}
+				@media (min-width: 980px) {
+					.mountText {
+						height: 100%;
+						padding: 22% 0 0 0;
+					}
+				}
+			.mountCol3Col2 {
+				
+			}
+				.mount6{
+					background: url(images/mount6.jpg);
+					background-size: 100% auto;
+					padding-top: 50%;
+				}
+	
+
+.shop {
+	height: 150px;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.shopButton {
+	color: white;
+	border: solid white 1px;
+	padding: 14px 50px 14px 50px;
+}
+
+.seachBlock {
+	margin: 10% 0;
+	text-align: center;
+}
+
+.seachRow {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.seachCol {
+	margin-bottom: 20px;
+}
+
+.seachCol.input {
+	display: flex;
+}
+
+.seachInput {
+	font-style: italic;
+	border: solid #eef0f5 1px;
+	padding: 14px 170px 14px 16px;
+	margin-right: 5px;
+}
+
+.seachButton {
+	padding: 14px 25px 12px 25px;
+	background: #50c878;
+	color: white;
+}
+
 .footer {
-	background: #fffafa;
+	background: #eef0f5;
 	padding: 80px 0px;
 }
 
@@ -72,5 +553,4 @@ body {
 
 .footerLogoCol img{
 	width: 20px;
-	padding: 0px 5px;
 }
