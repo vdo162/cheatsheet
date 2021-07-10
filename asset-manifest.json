@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/cheatsheet/static/css/main.3beaae70.chunk.css",
-    "main.js": "/cheatsheet/static/js/main.0c12662e.chunk.js",
-    "main.js.map": "/cheatsheet/static/js/main.0c12662e.chunk.js.map",
-    "runtime-main.js": "/cheatsheet/static/js/runtime-main.d185a307.js",
-    "runtime-main.js.map": "/cheatsheet/static/js/runtime-main.d185a307.js.map",
-    "static/js/2.5df597f6.chunk.js": "/cheatsheet/static/js/2.5df597f6.chunk.js",
-    "static/js/2.5df597f6.chunk.js.map": "/cheatsheet/static/js/2.5df597f6.chunk.js.map",
-    "static/js/3.294b49b4.chunk.js": "/cheatsheet/static/js/3.294b49b4.chunk.js",
-    "static/js/3.294b49b4.chunk.js.map": "/cheatsheet/static/js/3.294b49b4.chunk.js.map",
+    "main.css": "/cheatsheet/static/css/main.86823a44.chunk.css",
+    "main.js": "/cheatsheet/static/js/main.1ab16c1c.chunk.js",
+    "main.js.map": "/cheatsheet/static/js/main.1ab16c1c.chunk.js.map",
+    "runtime-main.js": "/cheatsheet/static/js/runtime-main.f0cf5a94.js",
+    "runtime-main.js.map": "/cheatsheet/static/js/runtime-main.f0cf5a94.js.map",
+    "static/js/2.14160f63.chunk.js": "/cheatsheet/static/js/2.14160f63.chunk.js",
+    "static/js/2.14160f63.chunk.js.map": "/cheatsheet/static/js/2.14160f63.chunk.js.map",
+    "static/js/3.4a2735f5.chunk.js": "/cheatsheet/static/js/3.4a2735f5.chunk.js",
+    "static/js/3.4a2735f5.chunk.js.map": "/cheatsheet/static/js/3.4a2735f5.chunk.js.map",
     "index.html": "/cheatsheet/index.html",
-    "static/css/main.3beaae70.chunk.css.map": "/cheatsheet/static/css/main.3beaae70.chunk.css.map",
-    "static/js/2.5df597f6.chunk.js.LICENSE.txt": "/cheatsheet/static/js/2.5df597f6.chunk.js.LICENSE.txt",
+    "static/css/main.86823a44.chunk.css.map": "/cheatsheet/static/css/main.86823a44.chunk.css.map",
+    "static/js/2.14160f63.chunk.js.LICENSE.txt": "/cheatsheet/static/js/2.14160f63.chunk.js.LICENSE.txt",
     "static/media/logo.50beabff.PNG": "/cheatsheet/static/media/logo.50beabff.PNG",
     "static/media/logo.ae6a3aa3.PNG": "/cheatsheet/static/media/logo.ae6a3aa3.PNG",
     "static/media/logoWithBackground.c43319df.PNG": "/cheatsheet/static/media/logoWithBackground.c43319df.PNG",
     "static/media/what.8f198499.png": "/cheatsheet/static/media/what.8f198499.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d185a307.js",
-    "static/js/2.5df597f6.chunk.js",
-    "static/css/main.3beaae70.chunk.css",
-    "static/js/main.0c12662e.chunk.js"
+    "static/js/runtime-main.f0cf5a94.js",
+    "static/js/2.14160f63.chunk.js",
+    "static/css/main.86823a44.chunk.css",
+    "static/js/main.1ab16c1c.chunk.js"
   ]
 }
