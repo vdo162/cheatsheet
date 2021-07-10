@@ -1,0 +1,15 @@
+.block {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.blockItem {
+	background: #226e88;
+	margin: 0px 5px;
+	width: 15px;
+	height: 5px;
+}
+
+.blockContent a {
+	color: #226ea5;
+}

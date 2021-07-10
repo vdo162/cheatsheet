@@ -8,6 +8,7 @@ export const Header = (props) => {
 			<div >
 				<img className={style.logo} src={logo}/>
 			</div>
+			<hr className={style.hr}/>
 		</div>
 	)
 }

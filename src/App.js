@@ -8,6 +8,7 @@ import {CS50} from './Components/CS50/CS50'
 import {HTML} from './Components/HTML/HTML'
 import {JS} from './Components/JS/JS'
 import {FlexBox} from './Components/FlexBox/FlexBox'
+import {Grid} from './Components/Grid/Grid'
 import {Bootstrup} from './Components/Bootstrup/Bootstrup'
 import {SCSS} from './Components/SCSS/SCSS'
 import {Adaptive} from './Components/Adaptive/Adaptive'
@@ -18,14 +19,9 @@ import {NotFounded} from './Components/NotFounded/NotFounded'
 const App = (props) => {
   return (
     <div className={style.App}>
-		<div>
-			<Header/>
-		</div>
-		<div>
+		<Header/>
+		<div className={style.content}>
 			<Navbar/>
-		</div>
-		
-		<div className={style.routes}>
 			<Switch>
 				<Route exact path='/' component={()=> <Main/>}/>
 				<Route path='/main' component={()=><Main/>}/> 
@@ -33,6 +29,7 @@ const App = (props) => {
 				<Route path='/html' component={()=> <HTML/>}/>
 				<Route path='/js' component={()=> <JS/>}/>
 				<Route path='/flexbox' component={()=> <FlexBox/>}/>
+				<Route path='/grid' component={()=> <Grid/>}/>
 				<Route path='/bootstrup' component={()=> <Bootstrup/>}/>
 				<Route path='/scss' component={()=> <SCSS/>}/>
 				<Route path='/adaptive' component={()=> <Adaptive/>}/>
@@ -40,10 +37,7 @@ const App = (props) => {
 				<Route path='*' component={()=> <NotFounded/>}/>
 			</Switch>
 		</div>
-		
-		<div  className={style.styleBottom}>
-			<Footer/>
-		</div>
+		<Footer/>
     </div>
   );
 }

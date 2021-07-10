@@ -1,0 +1,16 @@
+.wrapper {
+	color: white;
+}
+
+.grid {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 30px 10vw / 30px 1fr 30px;
+}
+
+.gridItem {
+	background: #0079db;
+	border: dashed black 1px;
+}

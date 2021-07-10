@@ -1,0 +1,32 @@
+.wrapper {
+	color: white;
+}
+
+.grid {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr / 1fr 1fr 1fr;
+}
+
+.gridItem1 {
+	background: #0079db;
+	border: dashed black 1px; 
+	
+	order: 2;
+}
+
+.gridItem2 {
+	background: #0079db;
+	border: dashed black 1px;
+	
+	order: 3;
+}
+
+.gridItem3 {
+	background: #0079db;
+	border: dashed black 1px;
+	
+	order: 1;
+}

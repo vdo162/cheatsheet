@@ -1,0 +1,32 @@
+.wrapper {
+	color: white;
+}
+
+.grid1 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template-columns: 50px 30% 1fr 2fr auto auto;
+}
+
+.grid2 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template-columns: 30vh minmax(300px, 400px) fit-content(300px);
+}
+
+.grid3 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template-columns: 50px repeat(3, 0.2fr);
+}
+
+.gridItem {
+	background: #0079db;
+	border: dashed black 1px;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+	color: white;
+}
+
+.grid1 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	
+	row-gap: 5px;
+}
+
+.grid2 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	
+	column-gap: 5px;
+}
+
+.grid3 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	
+	gap: 5px;
+}
+
+.gridItem {
+	background: #0079db;
+	border: dashed black 1px; 
+}

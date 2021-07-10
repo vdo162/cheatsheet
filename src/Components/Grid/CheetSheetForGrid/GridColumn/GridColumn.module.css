@@ -1,0 +1,28 @@
+.wrapper {
+	color: white;
+}
+
+.grid {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+}
+.gridItem {
+	background: #0079db;
+	border: dashed black 1px;
+}
+
+.gridItem1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.gridItem21 {
+	grid-column-start: span 2;
+}
+
+.gridItem22 {
+	grid-column: 1 / 3;
+}

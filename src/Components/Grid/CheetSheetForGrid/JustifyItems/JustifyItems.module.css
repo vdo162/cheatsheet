@@ -1,0 +1,48 @@
+.wrapper {
+	color: white;
+}
+
+.grid1 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	
+	justify-items: start;
+}
+
+.grid2 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	
+	justify-items: stretch;
+}
+
+.grid3 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	
+	justify-items: end;
+}
+
+.grid4 {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	
+	justify-items: center;
+}
+
+.gridItem {
+	background: #0079db;
+	border: dashed black 1px; 
+}

@@ -1,0 +1,33 @@
+.wrapper {
+	color: white;
+}
+
+.grid {
+	background: #8b00ff;
+	padding: 5px;
+	
+	display: grid;
+	grid-template: 1fr 2fr / 30px 1fr;	
+	grid-template-areas: 'h h' 
+						 's c';
+}
+
+.header {
+	grid-area: h;
+	background: #0079db;
+	border: dashed black 1px;
+}
+
+.side {
+	grid-area: c;
+	
+	background: #0079db;
+	border: dashed black 1px;
+}
+
+.content {
+	grid-area: s;
+	
+	background: #0079db;
+	border: dashed black 1px;
+}

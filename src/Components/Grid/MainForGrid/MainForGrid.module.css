@@ -1,5 +1,8 @@
 .conteiner {
 	max-width: 1200px;
 	margin: 0px auto;
-	padding: 0px 15px;
+}
+
+.content {
+	padding: 15px;
 }

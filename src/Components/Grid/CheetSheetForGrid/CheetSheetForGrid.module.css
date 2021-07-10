@@ -1,0 +1,34 @@
+.main {
+	padding: 0px 10px;
+}
+
+.wrapper {
+	background: #0000aa;
+	color: white;
+	margin: 0px 5px;
+}
+
+.content {
+	background: #0000ff;
+	color: white;
+	margin: 0px 5px;
+}
+
+.grid {
+	background: #8b00ff;
+	color: white;
+	margin: 0px 5px;
+}
+
+.gridBody {
+	background: #5e5373;
+	color: white;
+	margin: 0px 5px;
+}
+
+.gridItem {
+	background: #0079db;
+	color: white;
+	margin: 0px 5px;	
+}
+
